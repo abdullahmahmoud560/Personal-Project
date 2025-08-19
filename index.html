@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>أحمد محمد</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                <li><a href="#works" class="nav-link">المهارات والأعمال</a></li>
+                <li><a href="#products" class="nav-link">المنتجات</a></li>
+                <li><a href="#contact" class="nav-link">تواصل معي</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي - الواجهة الرئيسية -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">مرحباً بكم في موقعي الشخصي</h1>
+                <p class="hero-description">
+                    مطور ويب متخصص في تصميم وتطوير المواقع الإلكترونية الحديثة
+                    مع خبرة في HTML, CSS, JavaScript و React
+                </p>
+                <button class="cta-button">
+                    <i class="fas fa-rocket"></i>
+                    ابدأ المشروع
+                </button>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.svg" alt="صورة رمزية">
+            </div>
+        </div>
+        
+        <!-- روابط التواصل الاجتماعي -->
+        <div class="social-links">
+            <a href="#" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link linkedin">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- قسم المهارات والأعمال -->
+    <section id="works" class="works">
+        <div class="container">
+            <h2 class="section-title">مهاراتي وأعمالي</h2>
+            
+            <!-- المهارات -->
+            <div class="skills-section">
+                <h3>المهارات التقنية</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML5</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>CSS3</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h4>React</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- المشاريع -->
+            <div class="projects-section">
+                <h3>مشاريعي</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/web-development.svg" alt="مشروع تطوير ويب">
+                        </div>
+                        <div class="project-content">
+                            <h4>موقع تجاري</h4>
+                            <p>موقع إلكتروني متجاوب لشركة تجارية مع نظام إدارة المحتوى</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    عرض المشروع
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    الكود المصدري
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/app-development.svg" alt="تطبيق موبايل">
+                        </div>
+                        <div class="project-content">
+                            <h4>تطبيق إدارة المهام</h4>
+                            <p>تطبيق ويب لإدارة المهام والمشاريع مع واجهة مستخدم حديثة</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    عرض المشروع
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    الكود المصدري
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المنتجات -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">منتجاتي الرقمية</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/app-store.svg" alt="تطبيق موبايل">
+                    </div>
+                    <div class="product-content">
+                        <h3>تطبيق إدارة الوقت</h3>
+                        <p>تطبيق يساعدك على تنظيم وقتك وإدارة مهامك اليومية بكفاءة عالية</p>
+                        <div class="product-price">$9.99</div>
+                        <button class="buy-button">
+                            <i class="fas fa-shopping-cart"></i>
+                            شراء الآن
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/ebook.svg" alt="كتاب إلكتروني">
+                    </div>
+                    <div class="product-content">
+                        <h3>دليل تطوير الويب</h3>
+                        <p>كتاب شامل يغطي أساسيات تطوير الويب من البداية إلى المستوى المتقدم</p>
+                        <div class="product-price">$24.99</div>
+                        <button class="buy-button">
+                            <i class="fas fa-shopping-cart"></i>
+                            شراء الآن
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/design-tools.svg" alt="قوالب تصميم">
+                    </div>
+                    <div class="product-content">
+                        <h3>مجموعة قوالب تصميم</h3>
+                        <p>50+ قالب تصميم احترافي لمواقع الويب مع ملفات PSD و HTML</p>
+                        <div class="product-price">$49.99</div>
+                        <button class="buy-button">
+                            <i class="fas fa-shopping-cart"></i>
+                            شراء الآن
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معي</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ahmed@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+966 50 123 4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>الرياض، المملكة العربية السعودية</span>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="hobby">الهواية المفضلة</label>
+                        <select id="hobby" name="hobby" required>
+                            <option value="">اختر هوايتك المفضلة</option>
+                            <option value="reading">القراءة</option>
+                            <option value="sports">الرياضة</option>
+                            <option value="music">الموسيقى</option>
+                            <option value="travel">السفر</option>
+                            <option value="cooking">الطبخ</option>
+                            <option value="photography">التصوير</option>
+                            <option value="other">أخرى</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>نوع الزائر</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="visitor_type" value="visitor" required>
+                                <span>زائر</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="visitor_type" value="member" required>
+                                <span>عضو</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <i class="fas fa-paper-plane"></i>
+                        إرسال الرسالة
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>أحمد محمد</h3>
+                    <p>مطور ويب متخصص في تصميم وتطوير المواقع الإلكترونية الحديثة</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#works">المهارات والأعمال</a></li>
+                        <li><a href="#products">المنتجات</a></li>
+                        <li><a href="#contact">تواصل معي</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تواصل معي</h3>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 أحمد محمد. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
